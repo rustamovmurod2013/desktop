@@ -42,13 +42,12 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
     padding: 184px 20px;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
 }
 
 .father2{
     display: flex;
     flex-direction: column;
-
     gap: 35px;
 }
 
@@ -100,7 +99,7 @@ button:hover{
     display: flex;
     gap: 32px;
     justify-content: space-between;
-    margin-bottom: 102px;
+    margin-bottom: 40px;
 }
 
 .child10{
@@ -168,7 +167,7 @@ button:hover{
     display: flex;
     gap: 30px;
     justify-content: space-between;
-    margin-bottom: 205px;
+    margin-bottom: 40px;
 }
 
 .img1{
@@ -214,7 +213,7 @@ button:hover{
 .child4{
     display: flex;
     flex-direction: column;
-    max-width: 230px;
+    max-width: 240px;
     gap: 15px;
 }
 
@@ -223,13 +222,13 @@ button:hover{
     font-weight: 700;
     max-width: 130px;
     width: 100%;
+    margin-bottom: 10px;
 }
-
 .menu p{
     font-size: 14px;
     font-weight: 500;
     color: #737373;
-    max-width: 160px;
+    max-width: 140px;
     width: 100%;
 }
 
@@ -237,7 +236,7 @@ button:hover{
     display: flex;
     gap: 30px;
     justify-content: space-between;
-    margin-bottom: 201px;
+    margin-bottom: 40px;
 }
 
 .father4{
@@ -290,7 +289,7 @@ button:hover{
 
 .father5{
     padding: 0px 20px;
-    margin-bottom: 157px;
+    margin-bottom: 40px;
 }
 
 @media (max-width:416px) {
@@ -314,7 +313,7 @@ button:hover{
 .img3{
     display: flex;
     justify-content: space-between;
-    margin-bottom: 165px;
+    margin-bottom: 40px;
 }
 
 .father6{
@@ -338,7 +337,7 @@ button:hover{
     max-width: 327px;
     width: 100%;
     align-items: center;
-    margin-bottom: 80px;
+    margin-bottom: 40px;
     padding: 50px 0px;
     transition: 0.3s;
 }
@@ -380,7 +379,7 @@ button:hover{
 }
 
 .father7{
-    margin-bottom: 308px;
+    margin-bottom: 40px;
     padding: 80px 20x;
 }
 
@@ -411,7 +410,7 @@ button:hover{
     max-width: 1050px;
     width: 100%;
     padding: 13px 20px;
-    margin-bottom: 59px;
+    margin-bottom: 40px;
 }
 
 .father8 button{
@@ -422,7 +421,7 @@ button:hover{
     background-color: yellow;
     border-radius: 5px;
     border: 0px solid white;
-    margin-bottom: 98px;
+    margin-bottom: 40px;
 }
 
 .father8 textarea{
@@ -563,4 +562,40 @@ button:hover{
 
 #hero1{
     background-color: #F3F3F3;
+}
+
+.father12{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 50px;
+    align-items: center;
+    background-color: #16697A;
+    margin-bottom: 40px;
+}
+
+.father12 h1{
+    max-width: 258px;
+    width: 100%;
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.child11{
+    display: flex;
+    gap: 0px;
+    max-width: 450px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.child11 input{
+    padding: 15px 25px;
+}
+
+.child11 button{
+    padding: 15px 25px;
+    color: white;
+    background-color: #FFA62B;
+    border: 0px solid white;
 }
